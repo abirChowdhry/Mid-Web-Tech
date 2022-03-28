@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Seller Registration</title>
+</head>
+<body>
+
+<div style="text-align:center"> 
+<h2>Register To Start Selling</h2>
+</div>
+
+<form action= "../Model/CustomerRegistrationAction.php" method = "POST" novalidate>
+
+    <label for="fname">First name* :</label>
+    <input type="text" id="fname" name="fname">
+
+    <br><br>
+
+    <label for="lname">Last name* :</label>
+    <input type="text" id="lname" name="lname">
+
+    <br><br>   
+
+    <label for="username">Username* :</label>
+    <input type="text" id="username" name="username">
+
+    <br><br>
+
+    <label for="pass">Password :</label>
+    <input type="password" id="pass" name="pass">
+
+    <br><br>
+
+    <label for="conpass">Confirm Password :</label>
+    <input type="password" id="conpass" name="conpass">
+
+    <br><br>
+
+    <div style="text-align:center">  
+    <input type="submit" value="Submit">
+    </div> 
+
+    </form>
+
+    <div style="text-align:center">  
+    <br>
+    <a href="../Controller/Login.php">Login</a>
+    <a href="../Controller/HomePage.php">Home</a>
+    <br>
+    </div>
+
+</body>
+</html>
